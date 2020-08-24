@@ -1,0 +1,59 @@
+nav {
+  color: #000;
+  border-bottom: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo-header {
+  display: inline-block;
+  width: 50%;
+  max-width: 50px;
+}
+.nav-link {
+  width: 10rem;
+}
+.navbar-nav {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #000;
+  transition: 0.1s ease;
+}
+
+#register {
+  background-color: rgb(0, 28, 153);
+  color: #fff;
+  font-weight: light;
+  border: 1px rgb(0, 28, 153) solid;
+  border-radius: 0.5rem;
+  width: 10rem;
+  margin: 0 2rem 0 5rem;
+  transition: 0.3s ease;
+}
+#register a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#register:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(59, 59, 59);
+  transition: 0.1s ease;
+  text-decoration: none;
+}
+
+.MuiSvgIcon-fontSizeSmall {
+  margin-right: 0.5rem;
+}
+#dropdownicon {
+  width: 5rem;
+}

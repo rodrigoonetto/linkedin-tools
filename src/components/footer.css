@@ -1,0 +1,39 @@
+footer {
+  background: #000;
+  color: #fff;
+  min-height: 30rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  padding: 2rem 0;
+  margin: 0 0 5rem 0;
+}
+
+.footer-column a {
+  padding: 1rem 0 0 0;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.footer-column a:hover {
+  color: rgb(134, 134, 134);
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+
+.logo-footer {
+  display: block;
+  width: 50%;
+  max-width: 136px;
+}
+.footer-copyright {
+  text-align: center;
+}
+
+.social-link {
+  margin: 0.5rem 0;
+}
